@@ -1,20 +1,127 @@
 {
-    "toys": [
-    {
-        "id": 1,
-        "name": "Woody",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-        "likes": 8
-    },
-    {
-        "id": 2,
-        "name": "Buzz Lightyear",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-        "likes": 14
-    }
+    "logos":[
+        {
+        "symbol":"BTC",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1024px-Bitcoin.svg.png"
+        },
+        {
+        "symbol":"ETH",
+        "image":"https://d33wubrfki0l68.cloudfront.net/81a3b6b15b6c2eb9ebc8a3a392c8ac87bb404e64/ce474/static/4b5288012dc4b32ae7ff21fccac98de1/e1ebd/eth-diamond-black-gray.png"
+        },
+        {
+        "symbol":"USDT",
+        "image":"https://www.creativefabrica.com/wp-content/uploads/2021/06/14/Cryptocurrency-Tether-Usdt-Logo-Graphics-13393983-1.jpg"
+        },
+        {
+        "symbol":"BNB",
+        "image":"https://www.logo.wine/a/logo/Binance/Binance-BNB-Icon-Logo.wine.svg"
+        },
+        {
+        "symbol":"USDC",
+        "image":"https://s3-symbol-logo.tradingview.com/market-cap-usdc--600.png"
+        },
+        {
+        "symbol":"XRP",
+        "image":"https://i.pinimg.com/736x/e6/9d/92/e69d92c8f36c37c84ecf8104e1fc386d.jpg"
+        },
+        {
+        "symbol":"BUSD",
+        "image":"https://www.creativefabrica.com/wp-content/uploads/2021/06/16/Cryptocurrency-Binance-USD-Logo-Graphics-13460613-1-580x435.jpg"
+        },
+        {
+        "symbol":"ADA",
+        "image":"https://cryptologos.cc/logos/cardano-ada-logo.png"
+        },
+        {
+        "symbol":"SOL",
+        "image":"https://www.creativefabrica.com/wp-content/uploads/2021/06/16/Cryptocurrency-Solana-Logo-Graphics-13460284-1.jpg"
+        },
+        {
+        "symbol":"DOGE",
+        "image":"https://cryptologos.cc/logos/versions/dogecoin-doge-logo-alternative.svg?v=023"
+        },
+        {
+        "symbol":"DOT",
+        "image":"data:image/png;base64,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"
+        },
+        {
+        "symbol":"MATIC",
+        "image":"https://res.cloudinary.com/crunchbase-production/image/upload/pstweatifgo8tmub5atc"
+        },
+        {
+        "symbol":"SHIB",
+        "image":"https://cryptologos.cc/logos/shiba-inu-shib-logo.png"
+        },
+        {
+        "symbol":"DAI",
+        "image":"https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png"
+        },
+        {
+        "symbol":"STETH",
+        "image":"https://cryptologos.cc/logos/steth-steth-logo.png"
+        },
+        {
+        "symbol":"TRX",
+        "image":"https://s3.coinmarketcap.com/static/img/portraits/62837c68ab0e763d5f77e9a6.png"
+        },
+        {
+        "symbol":"AVAX",
+        "image":"https://cryptologos.cc/logos/avalanche-avax-logo.svg?v=023"
+        },
+        {
+        "symbol":"UNI",
+        "image":"https://www.creativefabrica.com/wp-content/uploads/2021/08/20/Uniswap-Cryptocurrency-Coin-Graphics-16082359-1.jpg"
+        },
+        {
+        "symbol":"WBTC",
+        "image":"https://cryptologos.cc/logos/wrapped-bitcoin-wbtc-logo.png"
+        },
+        {
+        "symbol":"LEO",
+        "image":"https://cryptologos.cc/logos/unus-sed-leo-leo-logo.png"
+        },
+        {
+        "symbol":"LTC",
+        "image":"https://cryptologos.cc/logos/litecoin-ltc-logo.png"
+        },
+        {
+        "symbol":"ETC",
+        "image":"https://www.creativefabrica.com/wp-content/uploads/2021/06/17/Cryptocurrency-Ethereum-Classic-Logo-Graphics-13509955-1.jpg"
+        },
+        {
+        "symbol":"LINK",
+        "image":"https://www.creativefabrica.com/wp-content/uploads/2021/06/15/Cryptocurrency-Chainlink-Logo-Graphics-13436600-1.jpg"
+        },
+        {
+        "symbol":"ATOM",
+        "image":"https://cryptologos.cc/logos/cosmos-atom-logo.png"
+        },
+        {
+        "symbol":"FTT",
+        "image":"data:image/png;base64,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"
+        },
+        {
+        "symbol":"XLM",
+        "image":"https://cryptologos.cc/logos/stellar-xlm-logo.png"
+        },
+        {
+        "symbol":"NEAR",
+        "image":"https://cryptologos.cc/logos/near-protocol-near-logo.png"
+        },
+        {
+        "symbol":"CRO",
+        "image":"https://cryptologos.cc/logos/cronos-cro-logo.png"
+        },
+        {
+        "symbol":"XMR",
+        "image":"https://cryptologos.cc/logos/monero-xmr-logo.png"
+        },
+        {
+        "symbol":"ALGO",
+        "image":"https://www.algorand.com/assets/media-kit/logos/logo-marks/png/algorand_logo_mark_black.png"
+        }
     ]
 }
-
 
 // will likely have to make json file for images.
 // best to include logos from top 30 (from messari). that way, given market conditions, 
