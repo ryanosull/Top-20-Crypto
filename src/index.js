@@ -156,4 +156,4 @@ function renderRoiData (assetData) {
 
 // 'li' bullets are persisting !!
 
-// hover over table, pop up window with link to "add to wallet", alert window "WARNING: NEVER CONNECT YOUR WALLET TO UNTRUSTED SITES"
+// hover over table, pop up window with link to "add to wallet", alert window "WARNING: NEVER CONNECT YOUR WALLET TO UNTRUSTED SITES!"
