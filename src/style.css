@@ -1,0 +1,80 @@
+
+th {
+    color: rgba(6, 152, 6, 0.735);
+    text-align: center;
+    font:bold;
+    font-family: monospace;
+}
+
+th, td {
+    border: 2px solid;
+    width: 30%;
+    text-align: center;
+    font-family: monospace;
+    font-size: large;
+}
+
+th {
+    border: 3px solid;
+}
+
+div > li {
+    color:rgb(239, 41, 186);
+    font-family: monospace;
+}
+
+table {
+    background-color: rgb(202, 202, 202);
+    offset: 50px;
+    color: rgba(0, 0, 0, 0.641)
+}
+
+body {
+    background-color: rgb(202, 116, 31);
+}
+
+#ath-data, #market-cap-data, #market-data, #roi-data {
+    background-color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-indent: 5%;
+    text-align: center;
+}
+
+#connect-button {
+    width: 15%;
+    height: 20px;
+    font-family: monospace;
+    border-radius: 16px;
+    border-style: solid;
+}
+
+input {
+    width: 22.5%; /* this width allows for just over 34 characters displayed, the maximum amount of characters a bitcoin wallet has */
+    padding: 5px 200px;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+    border-color: rgb(239, 41, 186);
+    border-radius: 16px;
+}
+
+label {
+    font-family: monospace;
+    font-size: large;
+}
+/* providedByLink, a tag */ 
+a {
+    font-family: monospace;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: rgb(239, 41, 186);
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+

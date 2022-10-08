@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Top 20 Crypto</title>
+        <link rel="stylesheet" href="./style.css">
+        <title></title>
     </head>
-    <body id="crypto-project-body">
+    <body id="crypto-project-body" class="main">
         <div id="ath-data"></div>
         <div id="market-cap-data"></div>
         <div id="market-data"></div>
         <div id="roi-data"></div>
-        
+        <form type="text" id="wallet-form">
+            <label id="e-mail-address"></label><br>
+            <input type="text" id="e-mail" ><br>
+            <label id="wallet-address"></label><br>
+            <input type="text" id="wallet-address">
+            <button id="connect-button" type="submit"></button>
+        </form>
         <script defer src="./index.js"></script>
     </body> 
 </html> 
