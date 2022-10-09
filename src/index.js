@@ -1,6 +1,5 @@
 const baseUrl = 'https://data.messari.io/api/v2/assets'
 // table
-
 const table = document.createElement('table')
 const headerRow = document.createElement('tr')
 table.appendChild(headerRow)
@@ -16,11 +15,13 @@ headerRow.appendChild(nameHeader)
 headerRow.appendChild(symbolHeader)
 headerRow.appendChild(priceHeader)
 // table ^
+
 //title 
-function showTitleTab () {
-    const titleTab = document.getElementsByTagName('title')
-    titleTab.textContent = 'Top 20 Tickers'
-}
+const titleTab = document.getElementById('title')
+titleTab.textContent = 'Top 20 Tickers'
+
+
+
 // connect wallet form
 const connectWallet = document.getElementById('connect-button');
 connectWallet.textContent = "connect wallet";
@@ -33,7 +34,7 @@ const form = document.getElementById('wallet-form');
 
 form.onsubmit = (event) => {
     event.preventDefault()
-    window.alert('WARNING: THIS WEBSITE IS A SCAM! NEVER CONNECT YOUR WALLET TO AN UNTRUSTED SOURCE!');
+    window.alert('WARNING: NEVER CONNECT YOUR WALLET TO AN UNTRUSTED SOURCE!');
 };
 // connect wallet form ^
 
@@ -45,6 +46,19 @@ function fetchData() {
 };
 
 fetchData(); // set timeout, see notes bottom of page
+
+// // setTimeout
+// // function sayHello () {
+// //     console.log("hello")
+// // };
+
+
+// setInterval( () => {      // this reprints table repeatedly  if passed fetchData()
+//     renderMessariData();
+// }, "10000")
+
+
+
 
 function renderMessariData(messariData){
     console.log(messariData) // putting this on browser to always have access
@@ -83,19 +97,24 @@ function renderAssetTable (assetData) {
 
 //messari link
 function renderMessariLink() { // something like this works in or out of function. give it a function for clarity or leave it out?
-    const providedByDiv = document.createElement('div')
+    const providedByDiv = document.createElement('div') //footer?
     const providedBySpan = document.createElement('span')
     const providedByLink = document.createElement('a')
 
     // providedBySpan.textContent = "test" string above black bar
 
-    providedByLink.textContent = "API data provided by https://messari.io/" // 
+    providedByLink.textContent = "API data provided by https://messari.io/" 
     providedByLink.setAttribute('target', '_blank') // to open in new tab
     providedByLink.setAttribute('href', 'https://messari.io/')
 
     providedBySpan.appendChild(providedByLink)
     providedByDiv.appendChild(providedBySpan)
     cryptoBody.appendChild(providedByDiv)
+
+    // providedByLink.addEventListener("mouseover", () => {     // test works 
+    //     window.alert('test')
+    // })
+
 };
 
 renderMessariLink();
@@ -183,14 +202,7 @@ function renderRoiData (assetData) {
 
 
 
-
-
-
-
-
-
-
-// hover over table, pop up window with link to "add to wallet", alert window "WARNING: NEVER CONNECT YOUR WALLET TO UNTRUSTED SITES!"
+// hover over table, pop up window with "Buy `${assetData.symbol}`, for each row"
 
 
 //set timeout for every 3 seconds for fresh fetch request (not a refresh)

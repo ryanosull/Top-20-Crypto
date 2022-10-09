@@ -14,9 +14,6 @@ th, td {
     font-size: large;
 }
 
-th {
-    border: 3px solid;
-}
 
 div > li {
     color:rgb(239, 41, 186);
@@ -51,18 +48,17 @@ body {
 }
 
 input {
-    width: 22.5%; /* this width allows for just over 34 characters displayed, the maximum amount of characters a bitcoin wallet has */
-    padding: 5px 200px;
-    margin: 5px 0px;
-    box-sizing: border-box;
+    width: 18%; /* 18% width allows for just over 40 characters displayed, the maximum amount of characters an ETH wallet has (BTC 34 char max) */
+    padding: 8px;
+    margin: 5px;
     font-family: monospace;
     border-color: rgb(239, 41, 186);
     border-radius: 16px;
-}
+} 
 
 label {
     font-family: monospace;
-    font-size: large;
+    font-size: larger;
 }
 /* providedByLink, a tag */ 
 a {
