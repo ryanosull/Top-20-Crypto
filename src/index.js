@@ -81,7 +81,7 @@ function renderAssetTable (assetData) {
     const tablePrice = document.createElement('td')
 
     tableSymbol.textContent = assetData.symbol
-    tablePrice.textContent = `$ ${assetData.metrics.market_data.price_usd.toFixed(5)}` // changed to (5) in order to view price for SHIB
+    tablePrice.textContent = `$ ${assetData.metrics.market_data.price_usd.toFixed(2)}` // changed to (5) in order to view price for SHIB
 
     tableRow.appendChild(tableSymbol)
     tableRow.appendChild(tablePrice)
