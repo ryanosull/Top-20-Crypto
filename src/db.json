@@ -123,6 +123,3 @@
     ]
 }
 
-// will likely have to make json file for images.
-// best to include logos from top 30 (from messari). that way, given market conditions, 
-// all images can load. if #22 moves to #19, we still want to display that logo
